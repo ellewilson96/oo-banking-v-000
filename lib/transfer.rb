@@ -14,7 +14,7 @@ def status
 end
 
   def valid?
-    sender.valid? && receiver.valid? == true
+    sender.valid? && receiver.valid?
 end
 
   def execute_transaction
